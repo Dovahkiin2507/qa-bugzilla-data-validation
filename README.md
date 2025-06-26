@@ -7,7 +7,7 @@ Este proyecto analiza errores reportados en Mozilla Firefox, con el objetivo de 
 Obtener información útil a partir del análisis de bugs resueltos, diferenciando entre errores críticos y no críticos, para extraer conclusiones que puedan servir a equipos de desarrollo o QA.
 
 ## 📁 Estructura del Proyecto
-
+ ```
 📦qa-bugzilla-data-validation
 ┣ 📂analysis
 ┃ ┣ 📜main.py → análisis exploratorio del dataset
@@ -15,7 +15,7 @@ Obtener información útil a partir del análisis de bugs resueltos, diferencian
 ┣ 📂data
 ┃ ┗ 📜fix.csv → dataset principal utilizado
 ┗ 📜README.md
-
+ ```
 
 ## 📊 Principales Resultados
 
