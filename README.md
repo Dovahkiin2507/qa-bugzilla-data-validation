@@ -34,13 +34,16 @@ Obtener información útil a partir del análisis de bugs resueltos, diferencian
 
 ## Descarga del dataset
 
-Los archivos de datos (`fix.csv` y otros`) **no están incluidos en este repositorio** debido a su tamaño y para mantener la privacidad del proyecto.
+Los archivos de datos no están incluidos en este repositorio debido a su tamaño. Al clonar el repositorio, la carpeta `data/` estará vacía.
 
-Para ejecutar el análisis correctamente, debes descargar el dataset por separado desde la fuente oficial o desde el siguiente enlace:
+El dataset utilizado incluye varios archivos (alrededor de ocho), pero en este proyecto solo se usa uno: `fix.csv`.
+
+Puedes descargar el dataset completo desde el siguiente enlace:
 
 [https://www.kaggle.com/datasets/qicongliu/bugzilla-bug-reports]
 
-Una vez descargado, coloca el archivo `fix.csv` dentro de la carpeta `data/` del proyecto para que los scripts puedan acceder a él correctamente.
+Una vez descargado, coloca el archivo `fix.csv` dentro de la carpeta `data/` para poder ejecutar los análisis correctamente.
+
 
 
 ## 🚀 Cómo ejecutar el proyecto
