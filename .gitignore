@@ -1,0 +1,20 @@
+# Ignorar todos los archivos excepto fix.csv y archivos Python
+*
+!fix.csv
+!*.py
+!README.md
+
+# Ignorar archivos de entorno virtual o Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar carpetas y archivos del editor
+.vscode/
+.idea/
+*.iml
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
